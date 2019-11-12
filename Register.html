@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<style type="text/css">
+		.back{
+			margin-top: 40px;
+			margin-left: 20px;
+			background-color: black;
+			width: 800px;
+			height: 500px;
+			padding: 20px;
+			color: #EB5A46;
+		}
+		.button{
+			width: 400px;
+			height: 30px;
+			border-radius: 2px;
+			border: 2px solid #EB5A46;
+			margin-top: 30px;
+			background-color: #EB5A46;
+		}
+		button:hover {
+			margin-top: 60px;
+			background-color: green;
+		}
+		input {
+			height: 30px;
+			width: 350px;
+			color: white;
+			border: none;
+			background: black;
+			border-bottom: 1px solid white;
+		}
+		h1{
+			text-align: center;
+		}
+		a{
+			color: #EB5A46;
+		}
+		.body{
+			margin-top: 110px;
+			padding: 20px;
+			margin-left:350px;
+			width: 900px;
+			height: 600px;
+			background-image: url("picture/back.jpg");
+			background-size: cover;
+		}
+		p{
+			text-align: center;
+		}
+		.flex{
+			display: flex;
+			justify-content: space-between;
+		}
+	</style>
+</head>
+<body>
+	<div class="body">
+		<div class="back">
+			<h1>Register</h1>
+			<form>
+				<div class="flex">
+					<div>
+						<h3>User name</h3>
+						<input placeholder="Enter your name" >
+						<h3>Email</h3>
+						<input placeholder="Enter your email" >
+						<h3>Phone Number</h3>
+						<input placeholder="Enter your phone number" >
+					</div>
+					<div>
+						<h3>Address</h3>
+						<input placeholder="Enter your phone address" >
+						<h3>Password</h3>
+						<input placeholder="Enter your password">
+						<h3>Confirm password</h3>
+						<input placeholder="Enter your password again"><br>
+					</div>
+				</div>
+				<center><button class="button" type="submit">Create an account</button></center>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
